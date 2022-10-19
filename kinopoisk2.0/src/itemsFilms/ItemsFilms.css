@@ -1,0 +1,9 @@
+.genre-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.items-wrapper {
+    margin: 40px;
+}

@@ -1,11 +1,10 @@
-import Form from 'react-bootstrap/Form';
+import React from "react";
+import './Search.css';
 
-function InputSizesExample() {
+const Search = () => {
     return (
-        <>
-            <Form.Control type="text" placeholder="Search" />
-        </>
-    );
+        <input className='search' placeholder='Search'/>
+    )
 }
 
-export default InputSizesExample;
+export { Search }
