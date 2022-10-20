@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import './SignUp.css'
 
 const SignUp = () => {
     return (
@@ -16,7 +15,7 @@ const SignUp = () => {
                     <Form.Control placeholder="Enter name"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email</Form.Label>
+                    <Form.Label>Email</Form.Label>placeholder
                     <Form.Control type="email" placeholder="Enter email"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
