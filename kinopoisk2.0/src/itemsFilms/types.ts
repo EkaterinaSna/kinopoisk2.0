@@ -1,7 +1,9 @@
 interface Movies {
-    img: string,
-    synopsis: string,
-    title: string
+    // synopsis?: string,
+    // title?: string,
+    // img?: string
+    category?: string,
+    contact?: string
 }
 
 export type { Movies };
